@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+/* body {
+    overflow-x: hidden;
+  }
+
+div > li{
+    list-style: none;
+  } */
+
+.scroll-hide {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}

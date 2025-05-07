@@ -12,3 +12,7 @@ div > li{
   scrollbar-width: none; /* Firefox */
   -ms-overflow-style: none; /* IE and Edge */
 }
+h3{
+  font-weight: 600;
+  padding: 10px 0;
+}

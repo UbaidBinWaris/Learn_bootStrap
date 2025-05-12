@@ -27,8 +27,11 @@ const roboto = Roboto({
 
 export default function RootLayout({ children }) {
   return (
-   <html lang="en">
-      <body className={roboto.className}>
+   <html lang="en" >
+      <body
+      className= "`{roboto.className}` bg-purple-400"
+        // className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+      >
         <Navbar />
         {children}
       </body>
